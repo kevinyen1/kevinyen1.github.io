@@ -3,6 +3,13 @@ $(document).ready(function() {
 	$("#edup").hover(
 		function() {
 		$("#edu").animate({fontSize: '100%'})
+		$("fdescript").hide();
+		$(".redpins").hide();
+		$(".greenpins").hide();
+		$(".bluepins").hide();
+		$("#redpin7").show();
+		$("#greenpin4").show();
+		$("#bluepin5").show();
 	},
 		function() {
 		$("#edu").animate({fontSize: '70%'})
@@ -12,6 +19,13 @@ $(document).ready(function() {
 	$("#beachp").hover(
 		function() {
 		$("#beach").animate({fontSize: '100%'})
+		$("fdescript").hide();
+		$(".redpins").hide();
+		$(".greenpins").hide();
+		$(".bluepins").hide();
+		$("#redpin7").show();
+		$("#greenpin4").show();
+		$("#bluepin5").show();
 	},
 		function() {
 		$("#beach").animate({fontSize: '70%'})
@@ -21,6 +35,13 @@ $(document).ready(function() {
 	$("#communityp").hover(
 		function() {
 		$("#community").animate({fontSize: '100%'})
+		$("fdescript").hide();
+		$(".redpins").hide();
+		$(".greenpins").hide();
+		$(".bluepins").hide();
+		$("#redpin7").show();
+		$("#greenpin4").show();
+		$("#bluepin5").show();
 	},
 		function() {
 		$("#community").animate({fontSize: '70%'})
